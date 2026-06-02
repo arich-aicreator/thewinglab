@@ -3,7 +3,7 @@ import anthropic
 import httpx
 import json
 
-st.set_page_config(page_title="Wing Lab 🍗", page_icon="🍗", layout="centered")
+st.set_page_config(page_title="Wing Lab", page_icon="favicon.png", layout="centered")
 
 client = anthropic.Anthropic(api_key=st.secrets["ANTHROPIC_API_KEY"])
 
@@ -216,9 +216,10 @@ if st.session_state.active_tab == "builder":
             <div class="wl-intro-label">Welcome to the Lab</div>
             <div class="wl-intro-title">Build your perfect wing recipe from what's already in your kitchen.</div>
             <div class="wl-intro-body">
-              No grocery run needed. Answer 8 simple questions about your pantry
-              and we'll craft a restaurant-quality recipe just for you.
-            </div>
+          No grocery run needed. Answer 8 simple questions about your pantry
+          and we'll craft a restaurant-quality recipe just for you.
+        </div>
+        <div class="wl-attribution">Icons by <a href="https://www.flaticon.com" target="_blank">Flaticon</a></div>
             <div class="wl-intro-stats">
               <div class="wl-stat"><span>8</span>Questions</div>
               <div class="wl-stat"><span>100%</span>Custom</div>

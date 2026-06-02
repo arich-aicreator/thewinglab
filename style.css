@@ -461,3 +461,14 @@ label, .wl-lbs-label {
   font-size: 1rem; color: #8b6f5e;
   white-space: nowrap;
 }
+
+.wl-attribution {
+  font-size: .65rem;
+  color: #b09a8e;
+  margin-top: 2rem;
+  font-family: 'DM Sans', sans-serif;
+}
+.wl-attribution a {
+  color: #b09a8e;
+  text-decoration: underline;
+}
