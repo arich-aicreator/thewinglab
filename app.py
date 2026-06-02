@@ -3,7 +3,7 @@ import anthropic
 import httpx
 import json
 
-st.set_page_config(page_title="Wing Lab", page_icon="./favicon.png", layout="centered")
+st.set_page_config(page_title="Wing Lab", page_icon="favicon.png", layout="centered")
 
 client = anthropic.Anthropic(api_key=st.secrets["ANTHROPIC_API_KEY"])
 
